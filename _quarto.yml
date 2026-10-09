@@ -35,8 +35,6 @@ website:
             text: Inline Code
           - href: slides/rendering.qmd
             text: Rendering
-          - href: slides/whats_next.qmd
-            text: What's Next
 format:
   html:
     theme: cosmo
