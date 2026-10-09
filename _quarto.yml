@@ -11,24 +11,32 @@ website:
     background: "#000000"
     style: "docked"
     search: true
-    collapse-level: 1
+    collapse-level: 2
     contents:
-      - section: "Workshop"
+      - href: index.qmd
+        text: Home
+      - section: "Before You Start"
         contents:
-          - href: index.qmd
-            text: Home
-          - section: "Slides"
-            contents:
-              - href: slides/introduction.qmd
-                text: Introduction
-              - href: slides/markdown-syntax.qmd
-                text: Markdown
-              - href: slides/Referencing.qmd
-                text: Referencing
-              - href: slides/code-chunks.qmd
-                text: Analysis
-              - href: slides/rendering.qmd
-                text: Rendering
+          - href: slides/workshop-materials.qmd
+            text: Workshop Materials
+          - href: slides/getting-started.qmd
+            text: Getting Started
+      - section: "Sessions"
+        contents:
+          - href: slides/introduction.qmd
+            text: Introduction
+          - href: slides/markdown-syntax.qmd
+            text: Markdown
+          - href: slides/Referencing.qmd
+            text: Referencing
+          - href: slides/code-chunks.qmd
+            text: Analysis
+          - href: slides/inline-code.qmd
+            text: Inline Code
+          - href: slides/rendering.qmd
+            text: Rendering
+          - href: slides/whats_next.qmd
+            text: What's Next
 format:
   html:
     theme: cosmo

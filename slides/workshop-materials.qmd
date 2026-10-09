@@ -2,7 +2,7 @@
 
 The workshop materials consist of a project structure and dummy scripts that will be used during the session.
 
-1.  Right-click on the following link and select *Save Link As...*: [my-reproducible-manuscript.zip](https://github.com/jgeller112/APS2024-Workshop-Reproduce-MS/blob/main/my-reproducible-manuscript.zip)
+1.  Click the following link to download the materials: [my-reproducible-manuscript.zip](https://github.com/jgeller112/princeton_repo_workshop/raw/main/my-reproducible-manuscript.zip)
 2.  Save the zip file in a location that you can easily access. We recommend to **not** use the default download location of your browser.
 3.  Extract the contents of the zipped file.
 

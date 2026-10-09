@@ -3,7 +3,8 @@
 ## Slides
 
 ```{=html}
-<iframe width="650" height="500" src="slides/analysis.html#/inline-code"></iframe>
+<p><a href="analysis._slides.html#/inline-code" target="_blank">View slides in full screen</a></p>
+<iframe class="slide-deck" src="analysis._slides.html#/inline-code" style="width: 100%; height: 500px; border: 1px solid #ddd;"></iframe>
 ```
 
 ## Exercise
