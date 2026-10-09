@@ -1,0 +1,17 @@
+{
+  "hash": "f9a8dd28a744f50e8e732d96fe6ac2d7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: APS_demo\nauthors:\n  - name: Norah Jones\n    affiliation: The University\n    roles: writing\n    corresponding: true\nbibliography: references.bib\n---\n\n\n\n## Section\n\nThis is a simple placeholder for the manuscript's main document [@knuth84].\n\n\n\n::: {.cell}\n\n```{.r .cell-code .hidden}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

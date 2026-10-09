@@ -1,0 +1,35 @@
+# Getting Started {.unnumbered}
+
+::: panel-tabset
+## Rstudio
+
+**1. Create an RStudio Project**
+
+-   In RStudio, click *File* \> *New Project* \> *Existing Directory*.
+-   Browse to your folder `my-reproducible-manuscript` in which you have saved the workshop materials.
+-   Check the *Open in new session* option.
+-   Click *Create Project*. This will create a `my-reproducible-manuscript.Rproj` file.
+
+**2. Document your project for reproducibility**
+
+Your project already contains pre-made folders and a README . Open the `README.md` file and fill it with a few relevant details, for example:
+
+-   Purpose and contents of the project
+-   Your name (Author)
+-   The date of creation
+-   Etc.
+
+**3. Create a Quarto document for your manuscript.**
+
+-   In RStudio, open up the `index.qmd` file
+-   In the YAML
+    -   Change the title: `My Reproducible Manuscript`.
+    -   Change the affiliation
+
+**4. Render the Quarto document to HTML**
+
+-   Save the Quarto document as something different within the `my-reproducible-manuscript` folder.
+    -   Give the file a clear name, without using spaces. For example, `my-reproducible-manuscript.qmd`.
+-   Once everything has been saved correctly, click the *Render* button in the menu bar.
+-   The rendered HTML copy of your document will appear in your web browser or alongside the editor in RStudio. You will also see a `my-reproducible-manuscript.html` file appear in the \_manuscripts folder.
+:::

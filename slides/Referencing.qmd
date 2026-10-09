@@ -1,0 +1,55 @@
+# Referencing
+
+## Slides
+
+{{< revealjs file="/slides/Referencing_slides.html" width = "800px" height="500px">}}
+
+## Exercise: Referencing
+
+We're assuming installation of Zotero Desktop, Zotero Connector, and Better BibTex for Zotero were completed successfully.
+
+1.  Open **Zotero Desktop**
+
+-   log into your account
+-   create a new collection for your project, for example: `my-reproducible-manuscript`
+
+2.  Open your **Web Browser**
+
+-   double-check that you can find the **Zotero Connector** in your browser
+-   run a web / Google Scholar search for "Allison Horst PalmerPenguins Package"
+-   use the Zotero Connector to save the reference to your collection
+
+3.  In **Zotero Desktop**,
+
+-   Right-click your collection and select *Export Collection*
+-   For the **Format**, select *Better BibTex*
+-   Click the option to *Keep updated*
+-   Provide the file name as `references` and **save it in the same folder as your Quarto document**
+
+4.  In **RStudio**,
+
+-   update the YAML to include the bibliography:
+
+```         
+---
+title: "My Reproducible Manuscript"
+format: html
+bibliography: references.bib
+---
+```
+
+5.  **Insert a Citation**
+
+-   In the text of your Quarto document, insert the *PalmerPenguins* citation (hint: refer to the slides and your .bib file to figure how to format the citation)
+
+-   Alternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.
+
+-   Render the document
+
+6.  **Repetition**
+
+-   Repeat Step 2 with another reference
+-   Repeat Step 5 to insert the new reference
+-   if you did a bracketed citation before, do an in-text citation this time (or vice versa)
+
+**Note:** Steps 1, 3, 4 can be skipped. These were a one-time thing.

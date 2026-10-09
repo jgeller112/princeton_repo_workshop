@@ -1,0 +1,33 @@
+---
+title: "Princeton Workshop: Reproducible Manuscripts in R with Quarto"
+---
+
+
+# Welcome! {.unnumbered}
+
+![](images/qrcode.png){fig-align="center"}
+
+Science practices are transforming how research is conducted, emphasizing transparency, reproducibility, and collaboration. In this hands-on workshop, you’ll learn how to build a fully reproducible workflow for writing and publishing a scientific manuscript that integrates text, data, and code. We will use the Quarto publishing system (predecessor to Rmarkdown) in combination with R (or optionally Python) to produce publication-ready outputs in multiple formats.\
+\
+In this workshop, you will learn to:
+
+\
+● Set up a reproducible folder and project structure\
+● Write using Markdown for clean, structured text\
+● Run analyses directly within code chunks or cells and reference statistics in-text\
+● Manage references using Zotero and Better BibTeX, and cite them seamlessly in your manuscript\
+● Render your Quarto document to Word (.docx), HTML, and PDF\
+\
+This workshop is ideal for researchers aiming to streamline their scientific writing and adopt Open Science principles.
+
+## Materials
+
+You can follow along by opening up a Posit cloud browser (you need an account, but it is free and easy).
+
+<p class="text-center">
+
+`<a class="btn btn-info btn-lg" target="_blank" href="https://posit.cloud/spaces/676941/join?access_code=GI--nB3SPLbAOAafImEikivhcOidNOWgfAiWMtjv"`{=html} {{< fa brands r-project >}}  Posit.cloud project </a>
+
+</p>
+
+My workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our [GitHub repository](https://github.com/jgeller112/princeton-repo-ms).

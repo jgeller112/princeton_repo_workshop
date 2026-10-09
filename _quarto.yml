@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Princeton Workshop: Reproducible Manuscripts in R with Quarto"
+  sidebar:
+    background: "#000000"
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Workshop"
+        contents:
+          - href: index.qmd
+            text: Home
+          - section: "Slides"
+            contents:
+              - href: slides/introduction.qmd
+                text: Introduction
+              - href: slides/markdown-syntax.qmd
+                text: Markdown
+              - href: slides/Referencing.qmd
+                text: Referencing
+              - href: slides/code-chunks.qmd
+                text: Analysis
+              - href: slides/rendering.qmd
+                text: Rendering
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles_princeton.css
+    fontsize: "20pt"
+
+editor: visual
+

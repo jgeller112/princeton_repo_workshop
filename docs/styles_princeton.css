@@ -1,0 +1,106 @@
+/* ---------- Princeton Theme ---------- */
+/* Princeton Orange #E77500, Black #000000 */
+:root {
+  --princeton-orange: #E77500;
+  --princeton-orange-dark: #B85D00;
+  --princeton-black: #000000;
+}
+
+/* ---------- Sidebar ---------- */
+#quarto-sidebar {
+  background: var(--princeton-black);
+  border-right: 4px solid var(--princeton-orange);
+  padding: 1rem;
+}
+
+#quarto-sidebar a,
+#quarto-sidebar .nav-link,
+#quarto-sidebar .nav-item,
+#quarto-sidebar .sidebar-title {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+#quarto-sidebar a:hover,
+#quarto-sidebar .nav-link.active,
+#quarto-sidebar .sidebar-item-text.active {
+  font-weight: bold;
+  color: var(--princeton-orange) !important;
+}
+
+/* ---------- Headings and Links ---------- */
+h1, h2, h3, h4 {
+  color: var(--princeton-black);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  border-bottom: 3px solid var(--princeton-orange);
+  padding-bottom: 0.25rem;
+}
+
+a {
+  color: var(--princeton-orange-dark);
+}
+
+a:hover {
+  color: var(--princeton-orange);
+}
+
+/* ---------- Body and Text ---------- */
+body {
+  background-color: #ffffff;
+  color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Code and Preformatted Text ---------- */
+pre, code {
+  background-color: #fff4e8;
+  color: #222;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 4px;
+}
+
+pre {
+  padding: 0.5rem;
+  border-left: 4px solid var(--princeton-orange);
+}
+
+/* ---------- Buttons ---------- */
+button, .btn, .btn-info {
+  background: var(--princeton-orange);
+  color: white !important;
+  border: none;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover, .btn:hover, .btn-info:hover {
+  background: var(--princeton-black);
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(231, 117, 0, 0.5);
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  background: var(--princeton-black);
+  border-top: 4px solid var(--princeton-orange);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* ---------- Table of contents ---------- */
+#TOC .nav-link.active,
+#TOC a:hover {
+  color: var(--princeton-orange-dark) !important;
+  border-left-color: var(--princeton-orange) !important;
+}

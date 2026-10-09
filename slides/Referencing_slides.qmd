@@ -1,0 +1,106 @@
+---
+format:
+  revealjs:
+    theme: night
+    embed-resources: true
+    slide-number: true
+    navigation-mode: linear
+    controls: true
+    css: styles.css
+    fontsize: "25pt"
+---
+
+# Referencing {background-color="#E77500"}
+
+## BibTex Keys
+
+-   Now that we know how to write in Markdown, let's add some references!
+
+-   Adding reproducible references happens with **BibTex keys**. A typical BibTex key might look like as follows:
+
+``` markdown
+@article{nash51,
+  author  = "Nash, John",
+  title   = "Non-cooperative Games",
+  journal = "Annals of Mathematics",
+  year    = 1951,
+  volume  = "54",
+  number  = "2",
+  pages   = "286--295"
+}
+```
+
+-   Two main components:
+
+    1.  A citekey
+    2.  Key-value pairs
+
+## Working With BibTex Keys
+
+-   We will work with with bibliographies in the form of `.bib` files (*BibTeX Bibliographical Database*). `.bib` files are text files which contain a list of references in the form of BibTex keys.
+
+    -   Here is an example of a .bib file:
+
+``` markdown
+@article{nash51,
+  author  = "Nash, John",
+  title   = "Non-cooperative Games",
+  journal = "Annals of Mathematics",
+  year    = 1951,
+  volume  = "54",
+  number  = "2",
+  pages   = "286--295"
+}
+
+@misc{RMarkdownWritingReproducible,
+    title = {{RMarkdown} for writing reproducible scientific papers},
+    url = {https://libscie.github.io/rmarkdown-workshop/handout.html},
+    urldate = {2023-04-18},
+}
+```
+
+## Working With BibTex Keys {.smaller}
+
+The typical workflow is as follows:
+
+::: incremental
+1.  Find a reference that you need in your manuscript.
+2.  Save it to your Zotero library via the browser extension\
+    Zotero automatically updates your `.bib` file through syncing with Zotero desktop and updating the `.bib` file.
+3.  Cite the references using the `@` + reference identifier:
+    -   **In-text citations**: `@nash51` OR `@RMarkdownWritingReproducible`
+    -   **Bracketed citations**: `[@nash51]` OR `[@nash51, @RMarkdownWritingReproducible]`
+:::
+
+. . .
+
+``` yaml
+---
+bibliography: references.bib
+---
+```
+
+More info: <https://quarto.org/docs/authoring/footnotes-and-citations.html>
+
+## References on the fly
+
+-   Alternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.
+
+## APA Style
+
+-   You need to use a csl (citation style language) file to make sure references are properly formatted
+
+-   I have included the apa.csl file in the Github folder
+
+    -   This will format references/citations in accordance with APA 7th edition
+
+## Exercise
+
+-   Add the `csl` to your YAML and include the apa7.csl file
+
+    ```{r}
+    #| eval: false
+    csl: apa.csl
+    ```
+
+-   Render your document

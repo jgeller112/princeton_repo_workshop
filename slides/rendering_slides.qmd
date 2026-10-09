@@ -1,0 +1,207 @@
+---
+format:
+  revealjs:
+    theme: night
+    embed-resources: true
+    slide-number: true
+    navigation-mode: linear
+    controls: true
+    css: styles.css
+    fontsize: "24pt"
+---
+
+# Rendering {background-color="#E77500"}
+
+# Output Formats
+
+Quarto provides the following output formats:
+
+-   HTML
+
+-   PDF
+
+-   Typst (way better than LaTex!)
+
+-   MS Word (`docx`)
+
+-   OpenOffice (`odt`)
+
+-   ePub
+
+## How To Render
+
+**1. In RStudio**:
+
+Click the *Render* button OR use the `quarto` R package:
+
+```{r}
+#| eval: false
+#| echo: true
+library(quarto)
+quarto_render("my-reproducible-manuscript.qmd") # defaults to html
+quarto_render("my-reproducible-manuscript.qmd", output_format = "pdf")
+```
+
+<br>
+
+**2. Terminal**: `quarto render` (`--to [output format]`)
+
+```{bash}
+#| eval: false
+#| echo: true
+quarto render
+quarto render my-reproducible-manuscript.qmd # defaults to html
+quarto render my-reproducible-manuscript.qmd --to pdf
+```
+
+## Render Options
+
+Render as an **HTML** document
+
+``` {.yaml code-line-numbers="4"}
+---
+title: "Hello Quarto"
+author: "JJB + Course"
+format: html
+---
+```
+
+Render as a **PDF**
+
+``` {.yaml code-line-numbers="4"}
+---
+title: "Hello Quarto"
+author: "JJB + Course"
+format: pdf
+---
+```
+
+Render as a **Word**
+
+``` {.yaml code-line-numbers="4"}
+---
+title: "Hello Quarto"
+author: "JJB + Course"
+format: docx
+---
+```
+
+## Multi-format Render Options
+
+Render one Quarto document to many output options like **HTML**, **Jupyter Notebook**, **PDF**, and **Word Document**.
+
+``` {.yaml code-line-numbers="4-8"}
+---
+title: "Hello Quarto"
+author: "JJB + Course"
+format: 
+  html: default
+  ipynb: default # new format!
+  pdf: default
+  docx: default
+---
+```
+
+::: callout-note
+Quarto supports many formats include [PowerPoint (PPT)](https://quarto.org/docs/reference/formats/presentations/pptx.html), [Revealjs](https://quarto.org/docs/reference/formats/presentations/revealjs.html), [Beamer](https://quarto.org/docs/reference/formats/presentations/beamer.html), [Rich Text Format (RTF)](https://quarto.org/docs/reference/formats/rtf.html), and on. For details, see [All Formats](https://quarto.org/docs/output-formats/all-formats.html).
+:::
+
+::: callout-note
+the *Render* button will not work for multiple formats.
+:::
+
+## Journal Formats
+
+Besides default `html`/`pdf`/`docx`, Quarto offers journal templates. See also [Quarto Documentation: Journals](https://quarto.org/docs/journals/).
+
+-   `acm`: Association of Computing Machinery (ACM)
+-   `plos`: Public Library of Science (PLOS)
+-   `agu`: American Geophysical Union (AGU)
+-   `elsevier`: Elsevier
+-   `biophysical-journal`: Biophysical
+-   `acs`: American Chemical Society (ACS)
+-   `jss`: Journal of Statistical Software (JSS)
+
+## APA - `apaquarto`
+
+Use a journal template **from the start of your project** (will create a new document):
+
+```{r}
+#| eval: false
+
+quarto::quarto_use_template("wjschne/apaquarto")
+
+```
+
+-   In console
+
+```{bash}
+#| eval: false
+#| echo: true
+quarto use template quarto-journals/<template-name>
+```
+
+<br>
+
+For example:
+
+```{bash}
+#| eval: false
+#| echo: true
+quarto use template wjschne/apaquarto
+
+```
+
+## APA - `apaquarto`
+
+![](https://github.com/wjschne/apaquarto/raw/main/img/docx.png){fig-align="center"}
+
+## APA - `apaquarto`
+
+![](https://github.com/wjschne/apaquarto/raw/main/img/journalmode.png){fig-align="center"}
+
+# Publishing
+
+## Sharing Work
+
+-   Once you are satisfied with the Quarto document, it's time to publish your work!
+
+-   The publishing step is important as the documents need to be viewed under the guise of a server
+
+-   There are multiple options for publishing with Quarto, and we'll present two of them
+
+## Publish Options
+
+::: panel-tabset
+#### GitHub Pages
+
+-   To make your Quarto document accessible on [GitHub Pages via Quarto](https://quarto.org/docs/publishing/github-pages.html), use the following command in your terminal:
+
+``` sh
+quarto publish gh-pages
+```
+
+-   This option is great if you want to share your document through a GitHub Pages website.
+
+#### Quarto Pub
+
+-   Alternatively, you can publish your Quarto document on [Quarto Pub via Quarto](https://quarto.org/docs/publishing/quarto-pub.html). Use the following command in your terminal:
+
+``` sh
+quarto publish quarto-pub
+```
+
+OR:
+
+-   You can find the blue Publishing icon in the following locations:
+
+    -   The upper right of the file editor
+
+    -   The document viewer when viewing a document
+
+    -   The embedded viewer when running a Shiny application
+
+    -   The Plots pane
+
+        -   Click on icon
+:::

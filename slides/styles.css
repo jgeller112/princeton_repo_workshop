@@ -1,0 +1,43 @@
+/* css styles */
+table {
+  color: white !important;
+}
+th, td {
+  color: white !important;
+}
+
+pre {
+  max-height: 100px;  /* Adjust height of code chunks */
+  font-size: 18px;     /* Adjust font size */
+  overflow-y: auto;    /* Add scrollbar if needed */
+  background-color: black; /* Ensure readability */
+  padding: 5px;       /* Add spacing */
+}
+
+code {
+  font-size: 20px;     /* Adjust inline code font size */
+}
+
+/* ---------- Princeton accents (Orange #E77500 on black) ---------- */
+.reveal h1, .reveal h2, .reveal h3 {
+  color: #E77500;
+}
+
+.reveal a {
+  color: #E77500;
+}
+
+.reveal .progress {
+  color: #E77500;
+}
+
+.reveal .slide-number,
+.reveal .footer {
+  color: #E77500;
+}
+
+/* Keep headings readable on orange section slides */
+.reveal .slides section[data-background-color="#E77500"] h1,
+.reveal .slides section[data-background-color="#E77500"] h2 {
+  color: #000000;
+}
