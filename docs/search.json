@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "my-reproducible-manuscript/index.html",
-    "href": "my-reproducible-manuscript/index.html",
-    "title": "My Reproducible Manuscript",
-    "section": "",
-    "text": "This is a simple placeholder for the manuscript’s main document (Knuth 1984).\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "my-reproducible-manuscript/index.html#section",
-    "href": "my-reproducible-manuscript/index.html#section",
-    "title": "My Reproducible Manuscript",
-    "section": "",
-    "text": "This is a simple placeholder for the manuscript’s main document (Knuth 1984).\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "slides/writing_slides.html#topics",
     "href": "slides/writing_slides.html#topics",
     "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
@@ -161,363 +147,6 @@
     "text": "Callout blocks\n\n\n\n\n\n\nNote\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\n\nWarning\n\n\nCallouts provide a simple way to attract attention, for example, to this warning.\n\n\n\n\n\n\n\n\n\nThis is important\n\n\nDanger, callouts will really improve your writing.\n\n\n\n\n\n\n\n\n\nTip with caption\n\n\nRun this first\n\n\n\n\n\n\n\n\n\nCaution, under construction\n\n\nHere is something under construction"
   },
   {
-    "objectID": "slides/references.html",
-    "href": "slides/references.html",
-    "title": "References",
-    "section": "",
-    "text": "References"
-  },
-  {
-    "objectID": "slides/inline-code.html",
-    "href": "slides/inline-code.html",
-    "title": "Inline Code",
-    "section": "",
-    "text": "Take a couple of minutes to play around with the possibilities of inline code:\n\nDo a simple calculation such as 25 + 25 within your text.\nReport the number of “Gentoo” and/or “Chinstrap” species of penguins within the data (hint: refer to the example in the slides).\nTry out one other (simple) in-line computation or calculation!"
-  },
-  {
-    "objectID": "slides/inline-code.html#exercise",
-    "href": "slides/inline-code.html#exercise",
-    "title": "Inline Code",
-    "section": "",
-    "text": "Take a couple of minutes to play around with the possibilities of inline code:\n\nDo a simple calculation such as 25 + 25 within your text.\nReport the number of “Gentoo” and/or “Chinstrap” species of penguins within the data (hint: refer to the example in the slides).\nTry out one other (simple) in-line computation or calculation!"
-  },
-  {
-    "objectID": "slides/whats_next.html",
-    "href": "slides/whats_next.html",
-    "title": "What’s Next?",
-    "section": "",
-    "text": "What’s Next?\n  View slides in full screen"
-  },
-  {
-    "objectID": "slides/getting-started.html",
-    "href": "slides/getting-started.html",
-    "title": "Getting Started",
-    "section": "",
-    "text": "Getting Started\n\nRstudio\n\n\n1. Create an RStudio Project\n\nIn RStudio, click File &gt; New Project &gt; Existing Directory.\nBrowse to your folder my-reproducible-manuscript in which you have saved the workshop materials.\nCheck the Open in new session option.\nClick Create Project. This will create a my-reproducible-manuscript.Rproj file.\n\n2. Document your project for reproducibility\nYour project already contains pre-made folders and a README . Open the README.md file and fill it with a few relevant details, for example:\n\nPurpose and contents of the project\nYour name (Author)\nThe date of creation\nEtc.\n\n3. Create a Quarto document for your manuscript.\n\nIn RStudio, open up the index.qmd file\nIn the YAML\n\nChange the title: My Reproducible Manuscript.\nChange the affiliation\n\n\n4. Render the Quarto document to HTML\n\nSave the Quarto document as something different within the my-reproducible-manuscript folder.\n\nGive the file a clear name, without using spaces. For example, my-reproducible-manuscript.qmd.\n\nOnce everything has been saved correctly, click the Render button in the menu bar.\nThe rendered HTML copy of your document will appear in your web browser or alongside the editor in RStudio. You will also see a my-reproducible-manuscript.html file appear in the _manuscripts folder."
-  },
-  {
-    "objectID": "slides/code-chunks.html",
-    "href": "slides/code-chunks.html",
-    "title": "Analysis",
-    "section": "",
-    "text": "View slides in full screen\n \n\n\n\n\n\nOpen the dummy.R\n\nInsert a code chunk at the beginning of your document (i.e. below the YAML header) and insert the relevant code from the script to load the necessary packages.\nInsert a code chunk in the Results section of your document and copy a piece/section of the dummy script into it.\nRun the code chunk and see if it works alright.\nRepeat the previous three steps until the whole dummy script has been incorporated within code chunks in your manuscript.\nRender the document and check the output.\nPlay around with the code chunk options and re-render the document.\n\n\n\n\nTake a couple of minutes to play around with the possibilities of inline code:\n\nDo a simple calculation such as 25 + 25 within your text.\nReport the number of “Gentoo” and/or “Chinstrap” species of penguins within the data (hint: refer to the example in the slides).\nTry out one other (simple) in-line computation or calculation!",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Analysis"
-    ]
-  },
-  {
-    "objectID": "slides/code-chunks.html#exercise---code-chunks",
-    "href": "slides/code-chunks.html#exercise---code-chunks",
-    "title": "Analysis",
-    "section": "",
-    "text": "Open the dummy.R\n\nInsert a code chunk at the beginning of your document (i.e. below the YAML header) and insert the relevant code from the script to load the necessary packages.\nInsert a code chunk in the Results section of your document and copy a piece/section of the dummy script into it.\nRun the code chunk and see if it works alright.\nRepeat the previous three steps until the whole dummy script has been incorporated within code chunks in your manuscript.\nRender the document and check the output.\nPlay around with the code chunk options and re-render the document.",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Analysis"
-    ]
-  },
-  {
-    "objectID": "slides/code-chunks.html#exercise---inline-code",
-    "href": "slides/code-chunks.html#exercise---inline-code",
-    "title": "Analysis",
-    "section": "",
-    "text": "Take a couple of minutes to play around with the possibilities of inline code:\n\nDo a simple calculation such as 25 + 25 within your text.\nReport the number of “Gentoo” and/or “Chinstrap” species of penguins within the data (hint: refer to the example in the slides).\nTry out one other (simple) in-line computation or calculation!",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Analysis"
-    ]
-  },
-  {
-    "objectID": "slides/Referencing.html",
-    "href": "slides/Referencing.html",
-    "title": "Referencing",
-    "section": "",
-    "text": "View slides in full screen\n \n\n\n\n\n\n\nWe’re assuming installation of Zotero Desktop, Zotero Connector, and Better BibTex for Zotero were completed successfully.\n\nOpen Zotero Desktop\n\n\nlog into your account\ncreate a new collection for your project, for example: my-reproducible-manuscript\n\n\nOpen your Web Browser\n\n\ndouble-check that you can find the Zotero Connector in your browser\nrun a web / Google Scholar search for “Allison Horst PalmerPenguins Package”\nuse the Zotero Connector to save the reference to your collection\n\n\nIn Zotero Desktop,\n\n\nRight-click your collection and select Export Collection\nFor the Format, select Better BibTex\nClick the option to Keep updated\nProvide the file name as references and save it in the same folder as your Quarto document\n\n\nIn RStudio,\n\n\nupdate the YAML to include the bibliography:\n\n---\ntitle: \"My Reproducible Manuscript\"\nformat: html\nbibliography: references.bib\n---\n\nInsert a Citation\n\n\nIn the text of your Quarto document, insert the PalmerPenguins citation (hint: refer to the slides and your .bib file to figure how to format the citation)\nAlternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.\nRender the document\n\n\nRepetition\n\n\nRepeat Step 2 with another reference\nRepeat Step 5 to insert the new reference\nif you did a bracketed citation before, do an in-text citation this time (or vice versa)\n\nNote: Steps 1, 3, 4 can be skipped. These were a one-time thing.",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Referencing"
-    ]
-  },
-  {
-    "objectID": "slides/Referencing.html#slides",
-    "href": "slides/Referencing.html#slides",
-    "title": "Referencing",
-    "section": "",
-    "text": "View slides in full screen",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Referencing"
-    ]
-  },
-  {
-    "objectID": "slides/Referencing.html#exercise-referencing",
-    "href": "slides/Referencing.html#exercise-referencing",
-    "title": "Referencing",
-    "section": "",
-    "text": "We’re assuming installation of Zotero Desktop, Zotero Connector, and Better BibTex for Zotero were completed successfully.\n\nOpen Zotero Desktop\n\n\nlog into your account\ncreate a new collection for your project, for example: my-reproducible-manuscript\n\n\nOpen your Web Browser\n\n\ndouble-check that you can find the Zotero Connector in your browser\nrun a web / Google Scholar search for “Allison Horst PalmerPenguins Package”\nuse the Zotero Connector to save the reference to your collection\n\n\nIn Zotero Desktop,\n\n\nRight-click your collection and select Export Collection\nFor the Format, select Better BibTex\nClick the option to Keep updated\nProvide the file name as references and save it in the same folder as your Quarto document\n\n\nIn RStudio,\n\n\nupdate the YAML to include the bibliography:\n\n---\ntitle: \"My Reproducible Manuscript\"\nformat: html\nbibliography: references.bib\n---\n\nInsert a Citation\n\n\nIn the text of your Quarto document, insert the PalmerPenguins citation (hint: refer to the slides and your .bib file to figure how to format the citation)\nAlternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.\nRender the document\n\n\nRepetition\n\n\nRepeat Step 2 with another reference\nRepeat Step 5 to insert the new reference\nif you did a bracketed citation before, do an in-text citation this time (or vice versa)\n\nNote: Steps 1, 3, 4 can be skipped. These were a one-time thing.",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Referencing"
-    ]
-  },
-  {
-    "objectID": "slides/workshop-materials.html",
-    "href": "slides/workshop-materials.html",
-    "title": "Workshop Materials",
-    "section": "",
-    "text": "Workshop Materials\nThe workshop materials consist of a project structure and dummy scripts that will be used during the session.\n\nRight-click on the following link and select Save Link As…: my-reproducible-manuscript.zip\nSave the zip file in a location that you can easily access. We recommend to not use the default download location of your browser.\nExtract the contents of the zipped file.\n\nYour folder should look like this:\nmy-reproducible-manuscript\n├── _freeze\n├── _manuscript\n├── _quarto.yml\n├── data\n│   └── data.csv\n├── index.qmd\n├── results\n├── scripts\n│   ├── do_addition.py\n│   ├── do_addition.R\n│   ├── dummy.py\n│   └── dummy.R\n├── README.md\n├── references.bib"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "",
-    "text": "Science practices are transforming how research is conducted, emphasizing transparency, reproducibility, and collaboration. In this hands-on workshop, you’ll learn how to build a fully reproducible workflow for writing and publishing a scientific manuscript that integrates text, data, and code. We will use the Quarto publishing system (predecessor to Rmarkdown) in combination with R (or optionally Python) to produce publication-ready outputs in multiple formats.\n\nIn this workshop, you will learn to:\n\n● Set up a reproducible folder and project structure\n● Write using Markdown for clean, structured text\n● Run analyses directly within code chunks or cells and reference statistics in-text\n● Manage references using Zotero and Better BibTeX, and cite them seamlessly in your manuscript\n● Render your Quarto document to Word (.docx), HTML, and PDF\n\nThis workshop is ideal for researchers aiming to streamline their scientific writing and adopt Open Science principles.\n\n\nYou can follow along by opening up a Posit cloud browser (you need an account, but it is free and easy).\n\nJoin the workshop space (you only need to do this once).\nOpen the workshop project. Posit Cloud will make your own copy to work in.\n\n\n  1. Join the space \n  2. Open the project \n\nMy workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our GitHub repository.",
-    "crumbs": [
-      "Workshop",
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#materials",
-    "href": "index.html#materials",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "",
-    "text": "You can follow along by opening up a Posit cloud browser (you need an account, but it is free and easy).\n\nJoin the workshop space (you only need to do this once).\nOpen the workshop project. Posit Cloud will make your own copy to work in.\n\n\n  1. Join the space \n  2. Open the project \n\nMy workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our GitHub repository.",
-    "crumbs": [
-      "Workshop",
-      "Home"
-    ]
-  },
-  {
-    "objectID": "slides/markdown-syntax.html",
-    "href": "slides/markdown-syntax.html",
-    "title": "Markdown Syntax",
-    "section": "",
-    "text": "View slides in full screen\n \n\n\n\n\n\n\nRecreate the following paragraph in your Quarto document using Markdown:\nMeet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. \nTo learn more about Quarto see https://quarto.org.\n\nMeet the penguins\n\nThe `penguins` data from the palmerpenguins package contains size measurements for 344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica. \n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\n\n\n\n\n\n\nYou can find the illustration of the three species of Palmer Archipelago penguins (Chinstrap, Gentoo, and Adelie) here: https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png.\nThe link to the Palmer Penguins package is here: https://allisonhorst.github.io/palmerpenguins/.",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Markdown"
-    ]
-  },
-  {
-    "objectID": "slides/markdown-syntax.html#slides",
-    "href": "slides/markdown-syntax.html#slides",
-    "title": "Markdown Syntax",
-    "section": "",
-    "text": "View slides in full screen",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Markdown"
-    ]
-  },
-  {
-    "objectID": "slides/markdown-syntax.html#exercise-markdown",
-    "href": "slides/markdown-syntax.html#exercise-markdown",
-    "title": "Markdown Syntax",
-    "section": "",
-    "text": "Recreate the following paragraph in your Quarto document using Markdown:\nMeet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. \nTo learn more about Quarto see https://quarto.org.\n\nMeet the penguins\n\nThe `penguins` data from the palmerpenguins package contains size measurements for 344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica. \n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\n\n\n\n\n\n\nYou can find the illustration of the three species of Palmer Archipelago penguins (Chinstrap, Gentoo, and Adelie) here: https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png.\nThe link to the Palmer Penguins package is here: https://allisonhorst.github.io/palmerpenguins/.",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Markdown"
-    ]
-  },
-  {
-    "objectID": "slides/analysis._slides.html#what-are-code-chunks",
-    "href": "slides/analysis._slides.html#what-are-code-chunks",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "What are code chunks?",
-    "text": "What are code chunks?\n\nSpecified place for code\nExecutable\nWeaved between text\nMay print output or create new variables, for example\n\n\n\n\n1993 + 2023\n\n[1] 4016\n\nnumber=1993+2023\nnumber\n\n[1] 4016"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#anatomy-of-a-code-chunk",
-    "href": "slides/analysis._slides.html#anatomy-of-a-code-chunk",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Anatomy of a code chunk",
-    "text": "Anatomy of a code chunk\n\n\n\nOn each end of the code chunk: 3 backticks: ``` **\nCurly brackets: engine: {r} or {python} **\nTop of chunk: Code chunk options, with hashpipe: #|\n\n\n```{r}\n#| label: cars-r\n#| echo: false\nmtcars %&gt;% \n  distinct(cyl)\n```\n\n```{python}\n#| label: car-py\n#| echo: false\ndistinct_cyl = mtcars.drop_duplicates(subset=['cyl'])\n```\n\n** not needed in a code cell in a Jupyter notebook!"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#code-chunk-options",
-    "href": "slides/analysis._slides.html#code-chunk-options",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Code chunk options",
-    "text": "Code chunk options\nUseful code chunk options\n\n\n\n\n\n\n\nOption\nDescription\n\n\n\n\neval\nEvaluate the code chunk.\n\n\necho\nInclude the source code in output\n\n\noutput\n`Include code output results (true, false, or asis)`\n\n\nwarning\nInclude warnings in the output.`\n\n\nerror\nInclude errors in the output (continues execution if error present).\n\n\ninclude\nCatch all for preventing any output (code or results) from being included.\n\n\nlabel\nPlease make sure to label your code chunks! It helps with debugging.\n\n\nfig-cap\ncaption your figure\n\n\nfig-width\nwidth of the figure\n\n\nfig-height\nheight of the figure"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#code-chunk-options-1",
-    "href": "slides/analysis._slides.html#code-chunk-options-1",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Code Chunk Options",
-    "text": "Code Chunk Options\nOptions for all code chunks: include in yaml (top of the document).\n\nFor example…\n---\nformat: html\nexecute:\n  echo: false\n---\n… hides all code in the output!"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#inserting-code-chunks",
-    "href": "slides/analysis._slides.html#inserting-code-chunks",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Inserting Code Chunks",
-    "text": "Inserting Code Chunks\nOption 1: Source editor: Type it out\n\nOption 2: Visual editor: Insert &gt; Code cell\n\n\nOption 3: Shortcuts:\n\nRStudio: Ctrl+Alt+I (or Cmd + Option + I on Mac)"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#demo-echo-option",
-    "href": "slides/analysis._slides.html#demo-echo-option",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Demo: echo option",
-    "text": "Demo: echo option\necho hides (FALSE)/shows (TRUE) code and outputs results\n\n\nCode\n```{r}\n#| label: ex-orig\n#| echo: true \nx = 1:10; y = 11:20\nplot(x, y)\n```\n\nOutput\nex-original Output:\n\nx = 1:10; y = 11:20\nplot(x, y)"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#demo-echo-option-1",
-    "href": "slides/analysis._slides.html#demo-echo-option-1",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Demo: echo option",
-    "text": "Demo: echo option\n\n\nCode\n```{r}\n#| label: ex-hide-code\n#| echo: false\nx = 1:10; y = 11:20\nplot(x, y)\n```\n\nOutput\nex-hide-code Output:"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#demo-eval-option",
-    "href": "slides/analysis._slides.html#demo-eval-option",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Demo: eval option",
-    "text": "Demo: eval option\neval controls whether the code is actually executed (TRUE) or just displayed without running (FALSE).\n\n\nCode\n```{r}\n#| label: ex-orig\n#| eval: true\nx = 1:10; y = 11:20\nplot(x, y)\n```\n\nOutput\nex-original Output:"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#demo-eval-option-1",
-    "href": "slides/analysis._slides.html#demo-eval-option-1",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Demo: eval option",
-    "text": "Demo: eval option\neval controls whether the code is actually executed (TRUE) or just displayed without running (FALSE).\n\n\nCode\n```{r}\n#| label: ex-not-run\n#| eval: false\nx = 1:10; y = 11:20\nplot(x, y)\n```\n\nOutput\nex-not-run Output:\n\nx = 1:10; y = 11:20\nplot(x, y)"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#code-fold",
-    "href": "slides/analysis._slides.html#code-fold",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Code Fold",
-    "text": "Code Fold\n\n\nCode\nx = 1:10; y = 11:20\nplot(x, y)"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#inline-code-what-why",
-    "href": "slides/analysis._slides.html#inline-code-what-why",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Inline code: what & why?",
-    "text": "Inline code: what & why?\nInsert results or (quick) calculations into running text, without additional text formatting. \n\nWhy?\n\nreport and describe results reproducibly\nminimizes errors: no manual copy-pasting results\nautomatic updating when data or code changes"
-  },
-  {
-    "objectID": "slides/analysis._slides.html#inline-code-1",
-    "href": "slides/analysis._slides.html#inline-code-1",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Inline code",
-    "text": "Inline code\nEnclose the R expression using `r `.\nCode:\n\n\nThere are `r nrow(cars)` observations in our data. \n\n\n\nOutput:\n\nThere are 50 observations in our data.\n\n\n\n\n\n\n\nImportant\n\n\nIf using Visual or Source mode, be advised the R expression will only substitute the value held by the variable when the Quarto document is rendered. That is, the value contained within the expression only appears in the output file."
-  },
-  {
-    "objectID": "slides/analysis._slides.html#reference-code-chunk-variables-inline",
-    "href": "slides/analysis._slides.html#reference-code-chunk-variables-inline",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Reference code chunk variables inline",
-    "text": "Reference code chunk variables inline\nCode:\n```{{r}}\n#| label: calc-values\n#| echo: false\nx = 1:10\nx_mu = mean(x)\nx_sd = sd(x)\n```\n\n\nThe _mean_ of **x** is  `r x_mu` and\nthe _standard deviation_ is `r x_sd`.\n\n\n\nOutput:\n\nThe mean of x is 5.5 and the standard deviation is 3.02765."
-  },
-  {
-    "objectID": "slides/analysis._slides.html#inline-code-how",
-    "href": "slides/analysis._slides.html#inline-code-how",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Inline code: how?",
-    "text": "Inline code: how?\nIn R\nThere are `r sum(penguins$Species=='Adelie')` \npenguins of the Adelie species in the dataset.\nThere are 152 penguins of the \"Adelie\" species in the dataset."
-  },
-  {
-    "objectID": "slides/rendering.html",
-    "href": "slides/rendering.html",
-    "title": "Rendering",
-    "section": "",
-    "text": "View slides in full screen\n \n\n\n\n\n\n\nRender your Quarto document to docx using both:\n\n\nThe quarto R package and the terminal\nThe YAML in your document\n\n\nAdjust the YAML to include both html & docx and re-render the document (what happens?)\nRender your Quarto document to pdf.\nTry out the APA Template in APAquarto\n\n\nSimply obtain the template and render it, no need to make changes to the content",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Rendering"
-    ]
-  },
-  {
-    "objectID": "slides/rendering.html#exercise",
-    "href": "slides/rendering.html#exercise",
-    "title": "Rendering",
-    "section": "",
-    "text": "Render your Quarto document to docx using both:\n\n\nThe quarto R package and the terminal\nThe YAML in your document\n\n\nAdjust the YAML to include both html & docx and re-render the document (what happens?)\nRender your Quarto document to pdf.\nTry out the APA Template in APAquarto\n\n\nSimply obtain the template and render it, no need to make changes to the content",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Rendering"
-    ]
-  },
-  {
-    "objectID": "slides/rendering_slides.html#how-to-render",
-    "href": "slides/rendering_slides.html#how-to-render",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "How To Render",
-    "text": "How To Render\n1. In RStudio:\nClick the Render button OR use the quarto R package:\n\nlibrary(quarto)\nquarto_render(\"my-reproducible-manuscript.qmd\") # defaults to html\nquarto_render(\"my-reproducible-manuscript.qmd\", output_format = \"pdf\")\n\n\n2. Terminal: quarto render (--to [output format])\n\nquarto render\nquarto render my-reproducible-manuscript.qmd # defaults to html\nquarto render my-reproducible-manuscript.qmd --to pdf"
-  },
-  {
-    "objectID": "slides/rendering_slides.html#render-options",
-    "href": "slides/rendering_slides.html#render-options",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Render Options",
-    "text": "Render Options\nRender as an HTML document\n---\ntitle: \"Hello Quarto\"\nauthor: \"JJB + Course\"\nformat: html\n---\nRender as a PDF\n---\ntitle: \"Hello Quarto\"\nauthor: \"JJB + Course\"\nformat: pdf\n---\nRender as a Word\n---\ntitle: \"Hello Quarto\"\nauthor: \"JJB + Course\"\nformat: docx\n---"
-  },
-  {
-    "objectID": "slides/rendering_slides.html#multi-format-render-options",
-    "href": "slides/rendering_slides.html#multi-format-render-options",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Multi-format Render Options",
-    "text": "Multi-format Render Options\nRender one Quarto document to many output options like HTML, Jupyter Notebook, PDF, and Word Document.\n---\ntitle: \"Hello Quarto\"\nauthor: \"JJB + Course\"\nformat: \n  html: default\n  ipynb: default # new format!\n  pdf: default\n  docx: default\n---\n\n\n\n\n\n\nNote\n\n\nQuarto supports many formats include PowerPoint (PPT), Revealjs, Beamer, Rich Text Format (RTF), and on. For details, see All Formats.\n\n\n\n\n\n\n\n\n\nNote\n\n\nthe Render button will not work for multiple formats."
-  },
-  {
-    "objectID": "slides/rendering_slides.html#journal-formats",
-    "href": "slides/rendering_slides.html#journal-formats",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Journal Formats",
-    "text": "Journal Formats\nBesides default html/pdf/docx, Quarto offers journal templates. See also Quarto Documentation: Journals.\n\nacm: Association of Computing Machinery (ACM)\nplos: Public Library of Science (PLOS)\nagu: American Geophysical Union (AGU)\nelsevier: Elsevier\nbiophysical-journal: Biophysical\nacs: American Chemical Society (ACS)\njss: Journal of Statistical Software (JSS)"
-  },
-  {
-    "objectID": "slides/rendering_slides.html#apa---apaquarto",
-    "href": "slides/rendering_slides.html#apa---apaquarto",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "APA - apaquarto",
-    "text": "APA - apaquarto\nUse a journal template from the start of your project (will create a new document):\n\nIn console\n\n\nquarto use template quarto-journals/&lt;template-name&gt;\n\n\nFor example:\n\nquarto use template wjschne/apaquarto"
-  },
-  {
-    "objectID": "slides/rendering_slides.html#apa---apaquarto-1",
-    "href": "slides/rendering_slides.html#apa---apaquarto-1",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "APA - apaquarto",
-    "text": "APA - apaquarto"
-  },
-  {
-    "objectID": "slides/rendering_slides.html#apa---apaquarto-2",
-    "href": "slides/rendering_slides.html#apa---apaquarto-2",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "APA - apaquarto",
-    "text": "APA - apaquarto"
-  },
-  {
-    "objectID": "slides/rendering_slides.html#sharing-work",
-    "href": "slides/rendering_slides.html#sharing-work",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Sharing Work",
-    "text": "Sharing Work\n\nOnce you are satisfied with the Quarto document, it’s time to publish your work!\nThe publishing step is important as the documents need to be viewed under the guise of a server\nThere are multiple options for publishing with Quarto, and we’ll present two of them"
-  },
-  {
-    "objectID": "slides/rendering_slides.html#publish-options",
-    "href": "slides/rendering_slides.html#publish-options",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Publish Options",
-    "text": "Publish Options\n\nGitHub PagesQuarto Pub\n\n\n\nTo make your Quarto document accessible on GitHub Pages via Quarto, use the following command in your terminal:\n\nquarto publish gh-pages\n\nThis option is great if you want to share your document through a GitHub Pages website.\n\n\n\n\nAlternatively, you can publish your Quarto document on Quarto Pub via Quarto. Use the following command in your terminal:\n\nquarto publish quarto-pub\nOR:\n\nYou can find the blue Publishing icon in the following locations:\n\nThe upper right of the file editor\nThe document viewer when viewing a document\nThe embedded viewer when running a Shiny application\nThe Plots pane\n\nClick on icon"
-  },
-  {
     "objectID": "slides/whats_next_slides.html#try-this",
     "href": "slides/whats_next_slides.html#try-this",
     "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
@@ -595,28 +224,74 @@
     "text": "Nix/Rix\n\nSteps:\n\n\nInstall Nix on your computer\nrix::rix() generates a default.nix file\nBuild expressions using nix-build (in terminal) or rix::nix_build() from R\n“Drop” into the development environment using nix-shell"
   },
   {
-    "objectID": "slides/introduction.html",
-    "href": "slides/introduction.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "View slides in full screen",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Introduction"
-    ]
+    "objectID": "slides/rendering_slides.html#how-to-render",
+    "href": "slides/rendering_slides.html#how-to-render",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "How To Render",
+    "text": "How To Render\n1. In RStudio:\nClick the Render button OR use the quarto R package:\n\nlibrary(quarto)\nquarto_render(\"my-reproducible-manuscript.qmd\") # defaults to html\nquarto_render(\"my-reproducible-manuscript.qmd\", output_format = \"pdf\")\n\n\n2. Terminal: quarto render (--to [output format])\n\nquarto render\nquarto render my-reproducible-manuscript.qmd # defaults to html\nquarto render my-reproducible-manuscript.qmd --to pdf"
   },
   {
-    "objectID": "slides/introduction.html#slides",
-    "href": "slides/introduction.html#slides",
-    "title": "Introduction",
+    "objectID": "slides/rendering_slides.html#render-options",
+    "href": "slides/rendering_slides.html#render-options",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Render Options",
+    "text": "Render Options\nRender as an HTML document\n---\ntitle: \"Hello Quarto\"\nauthor: \"JJB + Course\"\nformat: html\n---\nRender as a PDF\n---\ntitle: \"Hello Quarto\"\nauthor: \"JJB + Course\"\nformat: pdf\n---\nRender as a Word\n---\ntitle: \"Hello Quarto\"\nauthor: \"JJB + Course\"\nformat: docx\n---"
+  },
+  {
+    "objectID": "slides/rendering_slides.html#multi-format-render-options",
+    "href": "slides/rendering_slides.html#multi-format-render-options",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Multi-format Render Options",
+    "text": "Multi-format Render Options\nRender one Quarto document to many output options like HTML, Jupyter Notebook, PDF, and Word Document.\n---\ntitle: \"Hello Quarto\"\nauthor: \"JJB + Course\"\nformat: \n  html: default\n  ipynb: default # new format!\n  pdf: default\n  docx: default\n---\n\n\n\n\n\n\nNote\n\n\nQuarto supports many formats include PowerPoint (PPT), Revealjs, Beamer, Rich Text Format (RTF), and on. For details, see All Formats.\n\n\n\n\n\n\n\n\n\nNote\n\n\nthe Render button will not work for multiple formats."
+  },
+  {
+    "objectID": "slides/rendering_slides.html#journal-formats",
+    "href": "slides/rendering_slides.html#journal-formats",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Journal Formats",
+    "text": "Journal Formats\nBesides default html/pdf/docx, Quarto offers journal templates. See also Quarto Documentation: Journals.\n\nacm: Association of Computing Machinery (ACM)\nplos: Public Library of Science (PLOS)\nagu: American Geophysical Union (AGU)\nelsevier: Elsevier\nbiophysical-journal: Biophysical\nacs: American Chemical Society (ACS)\njss: Journal of Statistical Software (JSS)"
+  },
+  {
+    "objectID": "slides/rendering_slides.html#apa---apaquarto",
+    "href": "slides/rendering_slides.html#apa---apaquarto",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "APA - apaquarto",
+    "text": "APA - apaquarto\nUse a journal template from the start of your project (will create a new document):\n\nIn console\n\n\nquarto use template quarto-journals/&lt;template-name&gt;\n\n\nFor example:\n\nquarto use template wjschne/apaquarto"
+  },
+  {
+    "objectID": "slides/rendering_slides.html#apa---apaquarto-1",
+    "href": "slides/rendering_slides.html#apa---apaquarto-1",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "APA - apaquarto",
+    "text": "APA - apaquarto"
+  },
+  {
+    "objectID": "slides/rendering_slides.html#apa---apaquarto-2",
+    "href": "slides/rendering_slides.html#apa---apaquarto-2",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "APA - apaquarto",
+    "text": "APA - apaquarto"
+  },
+  {
+    "objectID": "slides/rendering_slides.html#sharing-work",
+    "href": "slides/rendering_slides.html#sharing-work",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Sharing Work",
+    "text": "Sharing Work\n\nOnce you are satisfied with the Quarto document, it’s time to publish your work!\nThe publishing step is important as the documents need to be viewed under the guise of a server\nThere are multiple options for publishing with Quarto, and we’ll present two of them"
+  },
+  {
+    "objectID": "slides/rendering_slides.html#publish-options",
+    "href": "slides/rendering_slides.html#publish-options",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Publish Options",
+    "text": "Publish Options\n\nGitHub PagesQuarto Pub\n\n\n\nTo make your Quarto document accessible on GitHub Pages via Quarto, use the following command in your terminal:\n\nquarto publish gh-pages\n\nThis option is great if you want to share your document through a GitHub Pages website.\n\n\n\n\nAlternatively, you can publish your Quarto document on Quarto Pub via Quarto. Use the following command in your terminal:\n\nquarto publish quarto-pub\nOR:\n\nYou can find the blue Publishing icon in the following locations:\n\nThe upper right of the file editor\nThe document viewer when viewing a document\nThe embedded viewer when running a Shiny application\nThe Plots pane\n\nClick on icon"
+  },
+  {
+    "objectID": "slides/references.html",
+    "href": "slides/references.html",
+    "title": "References",
     "section": "",
-    "text": "View slides in full screen",
-    "crumbs": [
-      "Workshop",
-      "Slides",
-      "Introduction"
-    ]
+    "text": "References"
   },
   {
     "objectID": "slides/introduction_slides.html#open-science",
@@ -766,6 +441,56 @@
     "text": "Text\nSection\n\nThis is a simple placeholder for the manuscript's main document [@knuth84]."
   },
   {
+    "objectID": "slides/inline-code.html",
+    "href": "slides/inline-code.html",
+    "title": "Inline Code",
+    "section": "",
+    "text": "Take a couple of minutes to play around with the possibilities of inline code:\n\nDo a simple calculation such as 25 + 25 within your text.\nReport the number of “Gentoo” and/or “Chinstrap” species of penguins within the data (hint: refer to the example in the slides).\nTry out one other (simple) in-line computation or calculation!"
+  },
+  {
+    "objectID": "slides/inline-code.html#exercise",
+    "href": "slides/inline-code.html#exercise",
+    "title": "Inline Code",
+    "section": "",
+    "text": "Take a couple of minutes to play around with the possibilities of inline code:\n\nDo a simple calculation such as 25 + 25 within your text.\nReport the number of “Gentoo” and/or “Chinstrap” species of penguins within the data (hint: refer to the example in the slides).\nTry out one other (simple) in-line computation or calculation!"
+  },
+  {
+    "objectID": "slides/code-chunks.html",
+    "href": "slides/code-chunks.html",
+    "title": "Analysis",
+    "section": "",
+    "text": "View slides in full screen\n \n\n\n\n\n\nOpen the dummy.R\n\nInsert a code chunk at the beginning of your document (i.e. below the YAML header) and insert the relevant code from the script to load the necessary packages.\nInsert a code chunk in the Results section of your document and copy a piece/section of the dummy script into it.\nRun the code chunk and see if it works alright.\nRepeat the previous three steps until the whole dummy script has been incorporated within code chunks in your manuscript.\nRender the document and check the output.\nPlay around with the code chunk options and re-render the document.\n\n\n\n\nTake a couple of minutes to play around with the possibilities of inline code:\n\nDo a simple calculation such as 25 + 25 within your text.\nReport the number of “Gentoo” and/or “Chinstrap” species of penguins within the data (hint: refer to the example in the slides).\nTry out one other (simple) in-line computation or calculation!",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Analysis"
+    ]
+  },
+  {
+    "objectID": "slides/code-chunks.html#exercise---code-chunks",
+    "href": "slides/code-chunks.html#exercise---code-chunks",
+    "title": "Analysis",
+    "section": "",
+    "text": "Open the dummy.R\n\nInsert a code chunk at the beginning of your document (i.e. below the YAML header) and insert the relevant code from the script to load the necessary packages.\nInsert a code chunk in the Results section of your document and copy a piece/section of the dummy script into it.\nRun the code chunk and see if it works alright.\nRepeat the previous three steps until the whole dummy script has been incorporated within code chunks in your manuscript.\nRender the document and check the output.\nPlay around with the code chunk options and re-render the document.",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Analysis"
+    ]
+  },
+  {
+    "objectID": "slides/code-chunks.html#exercise---inline-code",
+    "href": "slides/code-chunks.html#exercise---inline-code",
+    "title": "Analysis",
+    "section": "",
+    "text": "Take a couple of minutes to play around with the possibilities of inline code:\n\nDo a simple calculation such as 25 + 25 within your text.\nReport the number of “Gentoo” and/or “Chinstrap” species of penguins within the data (hint: refer to the example in the slides).\nTry out one other (simple) in-line computation or calculation!",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Analysis"
+    ]
+  },
+  {
     "objectID": "slides/Referencing_slides.html#bibtex-keys",
     "href": "slides/Referencing_slides.html#bibtex-keys",
     "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
@@ -806,5 +531,280 @@
     "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
     "section": "Exercise",
     "text": "Exercise\n\nAdd the csl to your YAML and include the apa7.csl file\nRender your document"
+  },
+  {
+    "objectID": "my-reproducible-manuscript/index.html",
+    "href": "my-reproducible-manuscript/index.html",
+    "title": "My Reproducible Manuscript",
+    "section": "",
+    "text": "This is a simple placeholder for the manuscript’s main document (Knuth 1984).\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "my-reproducible-manuscript/index.html#section",
+    "href": "my-reproducible-manuscript/index.html#section",
+    "title": "My Reproducible Manuscript",
+    "section": "",
+    "text": "This is a simple placeholder for the manuscript’s main document (Knuth 1984).\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "",
+    "text": "Science practices are transforming how research is conducted, emphasizing transparency, reproducibility, and collaboration. In this hands-on workshop, you’ll learn how to build a fully reproducible workflow for writing and publishing a scientific manuscript that integrates text, data, and code. We will use the Quarto publishing system (predecessor to Rmarkdown) in combination with R (or optionally Python) to produce publication-ready outputs in multiple formats.\n\nIn this workshop, you will learn to:\n\n● Set up a reproducible folder and project structure\n● Write using Markdown for clean, structured text\n● Run analyses directly within code chunks or cells and reference statistics in-text\n● Manage references using Zotero and Better BibTeX, and cite them seamlessly in your manuscript\n● Render your Quarto document to Word (.docx), HTML, and PDF\n\nThis workshop is ideal for researchers aiming to streamline their scientific writing and adopt Open Science principles.\n\n\nYou can follow along by opening up a Posit cloud browser (you need an account, but it is free and easy).\n\nJoin the workshop space (you only need to do this once).\nOpen the workshop project. Posit Cloud will make your own copy to work in.\n\n\n  1. Join the space \n  2. Open the project \n\nMy workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our GitHub repository.",
+    "crumbs": [
+      "Workshop",
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#materials",
+    "href": "index.html#materials",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "",
+    "text": "You can follow along by opening up a Posit cloud browser (you need an account, but it is free and easy).\n\nJoin the workshop space (you only need to do this once).\nOpen the workshop project. Posit Cloud will make your own copy to work in.\n\n\n  1. Join the space \n  2. Open the project \n\nMy workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our GitHub repository.",
+    "crumbs": [
+      "Workshop",
+      "Home"
+    ]
+  },
+  {
+    "objectID": "slides/Referencing.html",
+    "href": "slides/Referencing.html",
+    "title": "Referencing",
+    "section": "",
+    "text": "View slides in full screen\n \n\n\n\n\n\n\nWe’re assuming installation of Zotero Desktop, Zotero Connector, and Better BibTex for Zotero were completed successfully.\n\nOpen Zotero Desktop\n\n\nlog into your account\ncreate a new collection for your project, for example: my-reproducible-manuscript\n\n\nOpen your Web Browser\n\n\ndouble-check that you can find the Zotero Connector in your browser\nrun a web / Google Scholar search for “Allison Horst PalmerPenguins Package”\nuse the Zotero Connector to save the reference to your collection\n\n\nIn Zotero Desktop,\n\n\nRight-click your collection and select Export Collection\nFor the Format, select Better BibTex\nClick the option to Keep updated\nProvide the file name as references and save it in the same folder as your Quarto document\n\n\nIn RStudio,\n\n\nupdate the YAML to include the bibliography:\n\n---\ntitle: \"My Reproducible Manuscript\"\nformat: html\nbibliography: references.bib\n---\n\nInsert a Citation\n\n\nIn the text of your Quarto document, insert the PalmerPenguins citation (hint: refer to the slides and your .bib file to figure how to format the citation)\nAlternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.\nRender the document\n\n\nRepetition\n\n\nRepeat Step 2 with another reference\nRepeat Step 5 to insert the new reference\nif you did a bracketed citation before, do an in-text citation this time (or vice versa)\n\nNote: Steps 1, 3, 4 can be skipped. These were a one-time thing.",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Referencing"
+    ]
+  },
+  {
+    "objectID": "slides/Referencing.html#slides",
+    "href": "slides/Referencing.html#slides",
+    "title": "Referencing",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Referencing"
+    ]
+  },
+  {
+    "objectID": "slides/Referencing.html#exercise-referencing",
+    "href": "slides/Referencing.html#exercise-referencing",
+    "title": "Referencing",
+    "section": "",
+    "text": "We’re assuming installation of Zotero Desktop, Zotero Connector, and Better BibTex for Zotero were completed successfully.\n\nOpen Zotero Desktop\n\n\nlog into your account\ncreate a new collection for your project, for example: my-reproducible-manuscript\n\n\nOpen your Web Browser\n\n\ndouble-check that you can find the Zotero Connector in your browser\nrun a web / Google Scholar search for “Allison Horst PalmerPenguins Package”\nuse the Zotero Connector to save the reference to your collection\n\n\nIn Zotero Desktop,\n\n\nRight-click your collection and select Export Collection\nFor the Format, select Better BibTex\nClick the option to Keep updated\nProvide the file name as references and save it in the same folder as your Quarto document\n\n\nIn RStudio,\n\n\nupdate the YAML to include the bibliography:\n\n---\ntitle: \"My Reproducible Manuscript\"\nformat: html\nbibliography: references.bib\n---\n\nInsert a Citation\n\n\nIn the text of your Quarto document, insert the PalmerPenguins citation (hint: refer to the slides and your .bib file to figure how to format the citation)\nAlternatively, when using the Visual Editor option - you can use the citation dialog/option to insert citations directly.\nRender the document\n\n\nRepetition\n\n\nRepeat Step 2 with another reference\nRepeat Step 5 to insert the new reference\nif you did a bracketed citation before, do an in-text citation this time (or vice versa)\n\nNote: Steps 1, 3, 4 can be skipped. These were a one-time thing.",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Referencing"
+    ]
+  },
+  {
+    "objectID": "slides/analysis._slides.html#what-are-code-chunks",
+    "href": "slides/analysis._slides.html#what-are-code-chunks",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "What are code chunks?",
+    "text": "What are code chunks?\n\nSpecified place for code\nExecutable\nWeaved between text\nMay print output or create new variables, for example\n\n\n\n\n1993 + 2023\n\n[1] 4016\n\nnumber=1993+2023\nnumber\n\n[1] 4016"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#anatomy-of-a-code-chunk",
+    "href": "slides/analysis._slides.html#anatomy-of-a-code-chunk",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Anatomy of a code chunk",
+    "text": "Anatomy of a code chunk\n\n\n\nOn each end of the code chunk: 3 backticks: ``` **\nCurly brackets: engine: {r} or {python} **\nTop of chunk: Code chunk options, with hashpipe: #|\n\n\n```{r}\n#| label: cars-r\n#| echo: false\nmtcars %&gt;% \n  distinct(cyl)\n```\n\n```{python}\n#| label: car-py\n#| echo: false\ndistinct_cyl = mtcars.drop_duplicates(subset=['cyl'])\n```\n\n** not needed in a code cell in a Jupyter notebook!"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#code-chunk-options",
+    "href": "slides/analysis._slides.html#code-chunk-options",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Code chunk options",
+    "text": "Code chunk options\nUseful code chunk options\n\n\n\n\n\n\n\nOption\nDescription\n\n\n\n\neval\nEvaluate the code chunk.\n\n\necho\nInclude the source code in output\n\n\noutput\n`Include code output results (true, false, or asis)`\n\n\nwarning\nInclude warnings in the output.`\n\n\nerror\nInclude errors in the output (continues execution if error present).\n\n\ninclude\nCatch all for preventing any output (code or results) from being included.\n\n\nlabel\nPlease make sure to label your code chunks! It helps with debugging.\n\n\nfig-cap\ncaption your figure\n\n\nfig-width\nwidth of the figure\n\n\nfig-height\nheight of the figure"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#code-chunk-options-1",
+    "href": "slides/analysis._slides.html#code-chunk-options-1",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Code Chunk Options",
+    "text": "Code Chunk Options\nOptions for all code chunks: include in yaml (top of the document).\n\nFor example…\n---\nformat: html\nexecute:\n  echo: false\n---\n… hides all code in the output!"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#inserting-code-chunks",
+    "href": "slides/analysis._slides.html#inserting-code-chunks",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Inserting Code Chunks",
+    "text": "Inserting Code Chunks\nOption 1: Source editor: Type it out\n\nOption 2: Visual editor: Insert &gt; Code cell\n\n\nOption 3: Shortcuts:\n\nRStudio: Ctrl+Alt+I (or Cmd + Option + I on Mac)"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#demo-echo-option",
+    "href": "slides/analysis._slides.html#demo-echo-option",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Demo: echo option",
+    "text": "Demo: echo option\necho hides (FALSE)/shows (TRUE) code and outputs results\n\n\nCode\n```{r}\n#| label: ex-orig\n#| echo: true \nx = 1:10; y = 11:20\nplot(x, y)\n```\n\nOutput\nex-original Output:\n\nx = 1:10; y = 11:20\nplot(x, y)"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#demo-echo-option-1",
+    "href": "slides/analysis._slides.html#demo-echo-option-1",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Demo: echo option",
+    "text": "Demo: echo option\n\n\nCode\n```{r}\n#| label: ex-hide-code\n#| echo: false\nx = 1:10; y = 11:20\nplot(x, y)\n```\n\nOutput\nex-hide-code Output:"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#demo-eval-option",
+    "href": "slides/analysis._slides.html#demo-eval-option",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Demo: eval option",
+    "text": "Demo: eval option\neval controls whether the code is actually executed (TRUE) or just displayed without running (FALSE).\n\n\nCode\n```{r}\n#| label: ex-orig\n#| eval: true\nx = 1:10; y = 11:20\nplot(x, y)\n```\n\nOutput\nex-original Output:"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#demo-eval-option-1",
+    "href": "slides/analysis._slides.html#demo-eval-option-1",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Demo: eval option",
+    "text": "Demo: eval option\neval controls whether the code is actually executed (TRUE) or just displayed without running (FALSE).\n\n\nCode\n```{r}\n#| label: ex-not-run\n#| eval: false\nx = 1:10; y = 11:20\nplot(x, y)\n```\n\nOutput\nex-not-run Output:\n\nx = 1:10; y = 11:20\nplot(x, y)"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#code-fold",
+    "href": "slides/analysis._slides.html#code-fold",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Code Fold",
+    "text": "Code Fold\n\n\nCode\nx = 1:10; y = 11:20\nplot(x, y)"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#inline-code-what-why",
+    "href": "slides/analysis._slides.html#inline-code-what-why",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Inline code: what & why?",
+    "text": "Inline code: what & why?\nInsert results or (quick) calculations into running text, without additional text formatting. \n\nWhy?\n\nreport and describe results reproducibly\nminimizes errors: no manual copy-pasting results\nautomatic updating when data or code changes"
+  },
+  {
+    "objectID": "slides/analysis._slides.html#inline-code-1",
+    "href": "slides/analysis._slides.html#inline-code-1",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Inline code",
+    "text": "Inline code\nEnclose the R expression using `r `.\nCode:\n\n\nThere are `r nrow(cars)` observations in our data. \n\n\n\nOutput:\n\nThere are 50 observations in our data.\n\n\n\n\n\n\n\nImportant\n\n\nIf using Visual or Source mode, be advised the R expression will only substitute the value held by the variable when the Quarto document is rendered. That is, the value contained within the expression only appears in the output file."
+  },
+  {
+    "objectID": "slides/analysis._slides.html#reference-code-chunk-variables-inline",
+    "href": "slides/analysis._slides.html#reference-code-chunk-variables-inline",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Reference code chunk variables inline",
+    "text": "Reference code chunk variables inline\nCode:\n```{{r}}\n#| label: calc-values\n#| echo: false\nx = 1:10\nx_mu = mean(x)\nx_sd = sd(x)\n```\n\n\nThe _mean_ of **x** is  `r x_mu` and\nthe _standard deviation_ is `r x_sd`.\n\n\n\nOutput:\n\nThe mean of x is 5.5 and the standard deviation is 3.02765."
+  },
+  {
+    "objectID": "slides/analysis._slides.html#inline-code-how",
+    "href": "slides/analysis._slides.html#inline-code-how",
+    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
+    "section": "Inline code: how?",
+    "text": "Inline code: how?\nIn R\nThere are `r sum(penguins$Species=='Adelie')` \npenguins of the Adelie species in the dataset.\nThere are 152 penguins of the \"Adelie\" species in the dataset."
+  },
+  {
+    "objectID": "slides/getting-started.html",
+    "href": "slides/getting-started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Getting Started\n\nRstudio\n\n\n1. Create an RStudio Project\n\nIn RStudio, click File &gt; New Project &gt; Existing Directory.\nBrowse to your folder my-reproducible-manuscript in which you have saved the workshop materials.\nCheck the Open in new session option.\nClick Create Project. This will create a my-reproducible-manuscript.Rproj file.\n\n2. Document your project for reproducibility\nYour project already contains pre-made folders and a README . Open the README.md file and fill it with a few relevant details, for example:\n\nPurpose and contents of the project\nYour name (Author)\nThe date of creation\nEtc.\n\n3. Create a Quarto document for your manuscript.\n\nIn RStudio, open up the index.qmd file\nIn the YAML\n\nChange the title: My Reproducible Manuscript.\nChange the affiliation\n\n\n4. Render the Quarto document to HTML\n\nSave the Quarto document as something different within the my-reproducible-manuscript folder.\n\nGive the file a clear name, without using spaces. For example, my-reproducible-manuscript.qmd.\n\nOnce everything has been saved correctly, click the Render button in the menu bar.\nThe rendered HTML copy of your document will appear in your web browser or alongside the editor in RStudio. You will also see a my-reproducible-manuscript.html file appear in the _manuscripts folder."
+  },
+  {
+    "objectID": "slides/introduction.html",
+    "href": "slides/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "slides/introduction.html#slides",
+    "href": "slides/introduction.html#slides",
+    "title": "Introduction",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "slides/markdown-syntax.html",
+    "href": "slides/markdown-syntax.html",
+    "title": "Markdown Syntax",
+    "section": "",
+    "text": "View slides in full screen\n \n\n\n\n\n\n\nRecreate the following paragraph in your Quarto document using Markdown:\nMeet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. \nTo learn more about Quarto see https://quarto.org.\n\nMeet the penguins\n\nThe `penguins` data from the palmerpenguins package contains size measurements for 344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica. \n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\n\n\n\n\n\n\nYou can find the illustration of the three species of Palmer Archipelago penguins (Chinstrap, Gentoo, and Adelie) here: https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png.\nThe link to the Palmer Penguins package is here: https://allisonhorst.github.io/palmerpenguins/.",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Markdown"
+    ]
+  },
+  {
+    "objectID": "slides/markdown-syntax.html#slides",
+    "href": "slides/markdown-syntax.html#slides",
+    "title": "Markdown Syntax",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Markdown"
+    ]
+  },
+  {
+    "objectID": "slides/markdown-syntax.html#exercise-markdown",
+    "href": "slides/markdown-syntax.html#exercise-markdown",
+    "title": "Markdown Syntax",
+    "section": "",
+    "text": "Recreate the following paragraph in your Quarto document using Markdown:\nMeet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. \nTo learn more about Quarto see https://quarto.org.\n\nMeet the penguins\n\nThe `penguins` data from the palmerpenguins package contains size measurements for 344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica. \n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\n\n\n\n\n\n\nYou can find the illustration of the three species of Palmer Archipelago penguins (Chinstrap, Gentoo, and Adelie) here: https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png.\nThe link to the Palmer Penguins package is here: https://allisonhorst.github.io/palmerpenguins/.",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Markdown"
+    ]
+  },
+  {
+    "objectID": "slides/rendering.html",
+    "href": "slides/rendering.html",
+    "title": "Rendering",
+    "section": "",
+    "text": "View slides in full screen\n \n\n\n\n\n\n\nRender your Quarto document to docx using both:\n\n\nThe quarto R package and the terminal\nThe YAML in your document\n\n\nAdjust the YAML to include both html & docx and re-render the document (what happens?)\nRender your Quarto document to pdf.\nTry out the APA Template in APAquarto\n\n\nSimply obtain the template and render it, no need to make changes to the content",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Rendering"
+    ]
+  },
+  {
+    "objectID": "slides/rendering.html#exercise",
+    "href": "slides/rendering.html#exercise",
+    "title": "Rendering",
+    "section": "",
+    "text": "Render your Quarto document to docx using both:\n\n\nThe quarto R package and the terminal\nThe YAML in your document\n\n\nAdjust the YAML to include both html & docx and re-render the document (what happens?)\nRender your Quarto document to pdf.\nTry out the APA Template in APAquarto\n\n\nSimply obtain the template and render it, no need to make changes to the content",
+    "crumbs": [
+      "Workshop",
+      "Slides",
+      "Rendering"
+    ]
+  },
+  {
+    "objectID": "slides/whats_next.html",
+    "href": "slides/whats_next.html",
+    "title": "What’s Next?",
+    "section": "",
+    "text": "What’s Next?\n  View slides in full screen"
+  },
+  {
+    "objectID": "slides/workshop-materials.html",
+    "href": "slides/workshop-materials.html",
+    "title": "Workshop Materials",
+    "section": "",
+    "text": "Workshop Materials\nThe workshop materials consist of a project structure and dummy scripts that will be used during the session.\n\nRight-click on the following link and select Save Link As…: my-reproducible-manuscript.zip\nSave the zip file in a location that you can easily access. We recommend to not use the default download location of your browser.\nExtract the contents of the zipped file.\n\nYour folder should look like this:\nmy-reproducible-manuscript\n├── _freeze\n├── _manuscript\n├── _quarto.yml\n├── data\n│   └── data.csv\n├── index.qmd\n├── results\n├── scripts\n│   ├── do_addition.py\n│   ├── do_addition.R\n│   ├── dummy.py\n│   └── dummy.R\n├── README.md\n├── references.bib"
   }
 ]

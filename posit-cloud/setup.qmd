@@ -1,0 +1,115 @@
+---
+title: "Workshop Setup"
+subtitle: "Princeton Workshop: Reproducible Manuscripts in R with Quarto"
+format:
+  html: default
+  docx: default
+  pdf: default
+bibliography: references.bib
+editor: visual
+---
+
+## Before the workshop
+
+Work through this document once, top to bottom. It installs everything we will use and then checks that it works.
+
+1.  **Step 1:** Run each code chunk in the *Install* section by clicking the green ▶ (Run Current Chunk) button in its top-right corner. Wait for each one to finish (the red stop sign in the Console disappears) before running the next.
+2.  **Step 2:** Click the **Render** button at the top of this editor. If an HTML page opens with a penguin plot, you are all set.
+
+::: callout-note
+The install chunks are marked `eval: false`, so they only run when *you* click ▶. Rendering will not reinstall anything.
+:::
+
+## Install
+
+### R packages
+
+This takes a few minutes the first time.
+
+```{r}
+#| label: install-packages
+#| eval: false
+
+install.packages(c(
+  "tidyverse",      # data wrangling and plotting
+  "palmerpenguins", # example dataset
+  "quarto",         # run Quarto from R
+  "rmarkdown",
+  "knitr",
+  "tinytex"         # LaTeX, for rendering to PDF
+))
+```
+
+### LaTeX (for PDF output)
+
+PDF output needs a LaTeX installation. TinyTeX is a small one that works well with Quarto. This also takes a few minutes.
+
+```{r}
+#| label: install-tinytex
+#| eval: false
+
+if (!tinytex::is_tinytex()) {
+  tinytex::install_tinytex()
+}
+```
+
+::: callout-tip
+If you skip this step, everything except PDF output will still work.
+:::
+
+## Check
+
+Everything below runs when you click **Render**.
+
+```{r}
+#| label: check-packages
+#| message: false
+
+pkgs <- c("tidyverse", "palmerpenguins", "quarto", "rmarkdown", "knitr", "tinytex")
+installed <- pkgs %in% rownames(installed.packages())
+
+data.frame(package = pkgs, installed = ifelse(installed, "yes", "MISSING"))
+```
+
+```{r}
+#| label: check-tools
+#| echo: false
+
+quarto_version <- tryCatch(as.character(quarto::quarto_version()), error = function(e) "not found")
+has_tinytex <- tinytex::is_tinytex()
+```
+
+-   R version: `r getRversion()`
+-   Quarto version: `r quarto_version`
+-   TinyTeX installed: `r if (has_tinytex) "yes" else "no (PDF output will not work yet)"`
+
+### A plot
+
+```{r}
+#| label: fig-penguins
+#| fig-cap: "Flipper length and body mass of Palmer penguins."
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(palmerpenguins)
+
+ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  geom_point() +
+  labs(x = "Flipper length (mm)", y = "Body mass (g)", color = "Species") +
+  theme_minimal()
+```
+
+### Inline code
+
+The dataset has `r nrow(penguins)` penguins from `r n_distinct(penguins$island)` islands, with a mean body mass of `r round(mean(penguins$body_mass_g, na.rm = TRUE))` g (see @fig-penguins).
+
+### A citation
+
+The penguin data come from @gorman2014.
+
+## Try other formats
+
+Once the HTML version renders, try Word and PDF. Click the small arrow next to **Render** and pick **Render docx** or **Render pdf**.
+
+## References

@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!posit-cloud/"
 
 website:
   title: "Princeton Workshop: Reproducible Manuscripts in R with Quarto"
