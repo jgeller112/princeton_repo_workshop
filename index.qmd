@@ -30,4 +30,4 @@ You can follow along by opening up a Posit cloud browser (you need an account, b
 
 </p>
 
-My workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our [GitHub repository](https://github.com/jgeller112/princeton-repo-ms).
+My workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our [GitHub repository](https://github.com/jgeller112/princeton_repo_workshop).
