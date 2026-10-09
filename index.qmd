@@ -24,9 +24,14 @@ This workshop is ideal for researchers aiming to streamline their scientific wri
 
 You can follow along by opening up a Posit cloud browser (you need an account, but it is free and easy).
 
+1.  Join the workshop space (you only need to do this once).
+2.  Open the workshop project. Posit Cloud will make your own copy to work in.
+
 <p class="text-center">
 
-`<a class="btn btn-info btn-lg" target="_blank" href="https://posit.cloud/spaces/676941/join?access_code=GI--nB3SPLbAOAafImEikivhcOidNOWgfAiWMtjv"`{=html} {{< fa brands r-project >}}  Posit.cloud project </a>
+`<a class="btn btn-info btn-lg" target="_blank" href="https://posit.cloud/spaces/676941/join?access_code=GI--nB3SPLbAOAafImEikivhcOidNOWgfAiWMtjv">`{=html} {{< fa solid users >}} 1. Join the space `</a>`{=html}
+
+`<a class="btn btn-info btn-lg" target="_blank" href="https://posit.cloud/spaces/676941/content/13101440">`{=html} {{< fa brands r-project >}} 2. Open the project `</a>`{=html}
 
 </p>
 
