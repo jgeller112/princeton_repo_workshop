@@ -16,6 +16,19 @@ Work through this document once, top to bottom. It installs everything we will u
 1.  **Step 1:** Run each code chunk in the *Install* section by clicking the green ▶ (Run Current Chunk) button in its top-right corner. Wait for each one to finish (the red stop sign in the Console disappears) before running the next.
 2.  **Step 2:** Click the **Render** button at the top of this editor. If an HTML page opens with a penguin plot, you are all set.
 
+::: callout-important
+## Using your own computer instead of Posit Cloud?
+
+Install these first, then follow Steps 1 and 2 above:
+
+1.  **R** (4.3 or newer): <https://cloud.r-project.org>
+2.  **RStudio Desktop**: <https://posit.co/download/rstudio-desktop/>
+3.  **Quarto** (latest version recommended): <https://quarto.org/docs/get-started/>
+4.  **Zotero** (<https://www.zotero.org/download/>) and the **Better BibTeX** plugin (<https://retorque.re/zotero-better-bibtex/installation/>), for managing references.
+
+If you already have a LaTeX distribution (e.g., MacTeX or MiKTeX), you can skip the TinyTeX step.
+:::
+
 ::: callout-note
 The install chunks are marked `eval: false`, so they only run when *you* click ▶. Rendering will not reinstall anything.
 :::

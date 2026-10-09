@@ -26,6 +26,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -184,7 +219,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a>
   <ul class="collapse">
-  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a>
+  <ul class="collapse">
+  <li><a href="#option-1-posit-cloud-recommended" id="toc-option-1-posit-cloud-recommended" class="nav-link" data-scroll-target="#option-1-posit-cloud-recommended">Option 1: Posit Cloud (recommended)</a></li>
+  <li><a href="#option-2-your-own-computer" id="toc-option-2-your-own-computer" class="nav-link" data-scroll-target="#option-2-your-own-computer">Option 2: Your own computer</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -231,6 +270,8 @@ In this workshop, you will learn to:</p>
 This workshop is ideal for researchers aiming to streamline their scientific writing and adopt Open Science principles.</p>
 <section id="materials" class="level2">
 <h2 class="anchored" data-anchor-id="materials">Materials</h2>
+<section id="option-1-posit-cloud-recommended" class="level3">
+<h3 class="anchored" data-anchor-id="option-1-posit-cloud-recommended">Option 1: Posit Cloud (recommended)</h3>
 <p>You can follow along by opening up a Posit cloud browser (you need an account, but it is free and easy).</p>
 <ol type="1">
 <li>Join the workshop space (you only need to do this once).</li>
@@ -240,9 +281,32 @@ This workshop is ideal for researchers aiming to streamline their scientific wri
 </p><p><a class="btn btn-info btn-lg" target="_blank" href="https://posit.cloud/spaces/676941/join?access_code=GI--nB3SPLbAOAafImEikivhcOidNOWgfAiWMtjv"> <i class="fa-solid fa-users" aria-label="users"></i> 1. Join the space </a></p>
 <p><a class="btn btn-info btn-lg" target="_blank" href="https://posit.cloud/spaces/676941/content/13101440"> <i class="fa-brands fa-r-project" aria-label="r-project"></i> 2. Open the project </a></p>
 <p></p>
+</section>
+<section id="option-2-your-own-computer" class="level3">
+<h3 class="anchored" data-anchor-id="option-2-your-own-computer">Option 2: Your own computer</h3>
+<p>If you would rather work on your own laptop, install the following <strong>before the workshop</strong> (in this order):</p>
+<ol type="1">
+<li><p><strong>R</strong> (version 4.3 or newer): <a href="https://cloud.r-project.org" class="uri">https://cloud.r-project.org</a></p></li>
+<li><p><strong>RStudio Desktop</strong>: <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></p></li>
+<li><p><strong>Quarto</strong>: <a href="https://quarto.org/docs/get-started/" class="uri">https://quarto.org/docs/get-started/</a>. RStudio comes with a copy of Quarto, but installing the latest version is recommended.</p></li>
+<li><p><strong>R packages</strong>: open RStudio and run this in the Console:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"tidyverse"</span>, <span class="st">"palmerpenguins"</span>, <span class="st">"quarto"</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"rmarkdown"</span>, <span class="st">"knitr"</span>, <span class="st">"tinytex"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>TinyTeX</strong> (needed to render PDFs): in the RStudio Console, run</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">install_tinytex</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If you already have a LaTeX distribution (e.g., MacTeX or MiKTeX), you can skip this.</p></li>
+<li><p><strong>Zotero</strong> and the <strong>Better BibTeX</strong> plugin (for managing references):</p>
+<ul>
+<li>Zotero: <a href="https://www.zotero.org/download/" class="uri">https://www.zotero.org/download/</a></li>
+<li>Better BibTeX: <a href="https://retorque.re/zotero-better-bibtex/installation/" class="uri">https://retorque.re/zotero-better-bibtex/installation/</a></li>
+</ul></li>
+<li><p><strong>Microsoft Word</strong> or another program that opens <code>.docx</code> files (e.g., LibreOffice or Google Docs), to view Word output.</p></li>
+</ol>
+<p>To check that everything works, download the <a href="https://github.com/jgeller112/princeton_repo_workshop/raw/main/posit-cloud/setup.qmd">setup document</a> and its <a href="https://github.com/jgeller112/princeton_repo_workshop/raw/main/posit-cloud/references.bib">reference file</a>, save both in the same folder, open <code>setup.qmd</code> in RStudio, and click <strong>Render</strong>. If a page with a penguin plot opens, you are ready.</p>
 <p>My workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our <a href="https://github.com/jgeller112/princeton_repo_workshop">GitHub repository</a>.</p>
 
 
+</section>
 </section>
 </section>
 

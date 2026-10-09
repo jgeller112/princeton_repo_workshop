@@ -22,6 +22,8 @@ This workshop is ideal for researchers aiming to streamline their scientific wri
 
 ## Materials
 
+### Option 1: Posit Cloud (recommended)
+
 You can follow along by opening up a Posit cloud browser (you need an account, but it is free and easy).
 
 1.  Join the workshop space (you only need to do this once).
@@ -34,5 +36,34 @@ You can follow along by opening up a Posit cloud browser (you need an account, b
 `<a class="btn btn-info btn-lg" target="_blank" href="https://posit.cloud/spaces/676941/content/13101440">`{=html} {{< fa brands r-project >}} 2. Open the project `</a>`{=html}
 
 </p>
+
+### Option 2: Your own computer
+
+If you would rather work on your own laptop, install the following **before the workshop** (in this order):
+
+1.  **R** (version 4.3 or newer): <https://cloud.r-project.org>
+2.  **RStudio Desktop**: <https://posit.co/download/rstudio-desktop/>
+3.  **Quarto**: <https://quarto.org/docs/get-started/>. RStudio comes with a copy of Quarto, but installing the latest version is recommended.
+4.  **R packages**: open RStudio and run this in the Console:
+
+    ``` r
+    install.packages(c("tidyverse", "palmerpenguins", "quarto",
+                       "rmarkdown", "knitr", "tinytex"))
+    ```
+
+5.  **TinyTeX** (needed to render PDFs): in the RStudio Console, run
+
+    ``` r
+    tinytex::install_tinytex()
+    ```
+
+    If you already have a LaTeX distribution (e.g., MacTeX or MiKTeX), you can skip this.
+
+6.  **Zotero** and the **Better BibTeX** plugin (for managing references):
+    -   Zotero: <https://www.zotero.org/download/>
+    -   Better BibTeX: <https://retorque.re/zotero-better-bibtex/installation/>
+7.  **Microsoft Word** or another program that opens `.docx` files (e.g., LibreOffice or Google Docs), to view Word output.
+
+To check that everything works, download the [setup document](https://github.com/jgeller112/princeton_repo_workshop/raw/main/posit-cloud/setup.qmd) and its [reference file](https://github.com/jgeller112/princeton_repo_workshop/raw/main/posit-cloud/references.bib), save both in the same folder, open `setup.qmd` in RStudio, and click **Render**. If a page with a penguin plot opens, you are ready.
 
 My workshop material is licensed under a Creative Commons Attribution 4.0 International License. You can view the license on our [GitHub repository](https://github.com/jgeller112/princeton_repo_workshop).
