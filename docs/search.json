@@ -147,83 +147,6 @@
     "text": "Callout blocks\n\n\n\n\n\n\nNote\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\n\nWarning\n\n\nCallouts provide a simple way to attract attention, for example, to this warning.\n\n\n\n\n\n\n\n\n\nThis is important\n\n\nDanger, callouts will really improve your writing.\n\n\n\n\n\n\n\n\n\nTip with caption\n\n\nRun this first\n\n\n\n\n\n\n\n\n\nCaution, under construction\n\n\nHere is something under construction"
   },
   {
-    "objectID": "slides/whats_next_slides.html#try-this",
-    "href": "slides/whats_next_slides.html#try-this",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Try this",
-    "text": "Try this\n\nhttps://github.com/jgeller112/Rix-Nix_Test\nDoes it run for you?"
-  },
-  {
-    "objectID": "slides/whats_next_slides.html#renv",
-    "href": "slides/whats_next_slides.html#renv",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Renv",
-    "text": "Renv\n\n\nMost popular packages for reproducibility, and very easy to use:\n\nCreates a snap shot of packages used (and versions)\n\nOpen an R session in the folder containing the scripts\nRun renv::init() and check the folder for renv.lock\nUse renv::restore to load all packages used at runtime"
-  },
-  {
-    "objectID": "slides/whats_next_slides.html#renv-1",
-    "href": "slides/whats_next_slides.html#renv-1",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Renv",
-    "text": "Renv\n\nRecords, but does not restore the version of R\nInstallation of old packages can fail (due to missing OS-dependencies)"
-  },
-  {
-    "objectID": "slides/whats_next_slides.html#docker",
-    "href": "slides/whats_next_slides.html#docker",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Docker",
-    "text": "Docker\n\n\n\n\nDocker is a containerisation tool that you install on your computer\nDocker allows you to build images and run containers (a container is an instance of an image)\n\n\n\nDocker images:\n\nContain all the software and code needed for your project\nAre immutable (cannot be changed at run-time)\nCan be shared on- and offline"
-  },
-  {
-    "objectID": "slides/whats_next_slides.html#docker-1",
-    "href": "slides/whats_next_slides.html#docker-1",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Docker",
-    "text": "Docker\n\nDocker is very useful and widely used\nBut the entry cost is high (familiarity with Linux is recommended)\nSingle point of failure (what happens if Docker gets bought, abandoned, etc? quite unlikely though)\nNot actually dealing with reproducibility per se, we’re “abusing” Docker in a way\n\n\n\n\n\n\nTip\n\n\n\nCan use Code Ocean instead (https://codeocean.com/) - costs money\nBinder (free) and you can set it up within manuscript"
-  },
-  {
-    "objectID": "slides/whats_next_slides.html#nixrix",
-    "href": "slides/whats_next_slides.html#nixrix",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Nix/Rix",
-    "text": "Nix/Rix\n\nNix\n\nPackage manager: tool to install and manage packages\nPackage: any piece of software (not just R packages)"
-  },
-  {
-    "objectID": "slides/whats_next_slides.html#nixrix-1",
-    "href": "slides/whats_next_slides.html#nixrix-1",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Nix/Rix",
-    "text": "Nix/Rix\n\nGold standard of reproducibility: R, R packages and other dependencies must be managed\nNix is a package manager actually focused on reproducible builds\nNix deals with everything, with one single text file (called a Nix expression)!\n\nThese Nix expressions always build the exact same output"
-  },
-  {
-    "objectID": "slides/whats_next_slides.html#nixrix-2",
-    "href": "slides/whats_next_slides.html#nixrix-2",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Nix/Rix",
-    "text": "Nix/Rix\n\n\n\n\n\n\n\n\n\n{rix} (website) makes writing Nix expression easy!\nSimply use the provided rix() function:\n\n\n\n# download latest version\ninstall.packages(\"rix\", repos = c(\n  \"https://ropensci.r-universe.dev\"\n))\n\nlibrary(rix)\n\nrix(date = \"2025-01-27\", # date or r version wanted\n    r_pkgs = c(\"brms\", \"palmerpenguins\"), # r packages\n    system_pkgs = NULL, # system dependencies\n    git_pkgs = NULL, # github packages\n    tex_pkgs = NULL, # latex packages\n    ide = \"code\", # what ide you want to use rstudio/positron/vscode\n    project_path = \".\") # project path"
-  },
-  {
-    "objectID": "slides/whats_next_slides.html#nixrix-3",
-    "href": "slides/whats_next_slides.html#nixrix-3",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Nix/Rix",
-    "text": "Nix/Rix\n\nList required R version and packages\nOptionally: more system packages, packages hosted on Github, or LaTeX packages\nOptionally: an IDE (Rstudio, Radian, VS Code or “other”)\nWork interactively in an (relavitely) isolated, project-specific and reproducible environment!"
-  },
-  {
-    "objectID": "slides/whats_next_slides.html#nixrix-4",
-    "href": "slides/whats_next_slides.html#nixrix-4",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Nix/Rix",
-    "text": "Nix/Rix\n\nrix(date = \"2025-03-10\", # date or r version wanted\n    r_pkgs = c(\"brms\", \"palmerpenguins\"), # r packages\n    system_pkgs =  c(\"quarto\", \"git\", \"cmdstan\"), # system dependencies\n    git_pkgs = list(\n      list(\n        package_name = \"cmdstanr\",\n        repo_url = \"https://github.com/stan-dev/cmdstanr\",\n        commit = \"12211d4b35605d416d6e22078db81cfe9e5a64f5\")\n      ), # github packages\n    tex_pkgs = NULL, # latex packages\n    ide = \"code\", # what ide you want to use rstudio/positron/vscode\n    project_path = \".\") # project path"
-  },
-  {
-    "objectID": "slides/whats_next_slides.html#nixrix-5",
-    "href": "slides/whats_next_slides.html#nixrix-5",
-    "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
-    "section": "Nix/Rix",
-    "text": "Nix/Rix\n\nSteps:\n\n\nInstall Nix on your computer\nrix::rix() generates a default.nix file\nBuild expressions using nix-build (in terminal) or rix::nix_build() from R\n“Drop” into the development environment using nix-shell"
-  },
-  {
     "objectID": "slides/rendering_slides.html#how-to-render",
     "href": "slides/rendering_slides.html#how-to-render",
     "title": "Princeton Workshop: Reproducible Manuscripts in R with Quarto",
@@ -799,17 +722,6 @@
     "crumbs": [
       "Sessions",
       "Rendering"
-    ]
-  },
-  {
-    "objectID": "slides/whats_next.html",
-    "href": "slides/whats_next.html",
-    "title": "What’s Next?",
-    "section": "",
-    "text": "What’s Next?\n  View slides in full screen",
-    "crumbs": [
-      "Sessions",
-      "What's Next"
     ]
   },
   {
