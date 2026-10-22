@@ -33,7 +33,7 @@ You can follow along by opening up a Posit cloud browser (you need an account, b
 
 `<a class="btn btn-info btn-lg" target="_blank" href="https://posit.cloud/spaces/676941/join?access_code=GI--nB3SPLbAOAafImEikivhcOidNOWgfAiWMtjv">`{=html} {{< fa solid users >}} 1. Join the space `</a>`{=html}
 
-`<a class="btn btn-info btn-lg" target="_blank" href="https://posit.cloud/spaces/676941/content/13101440">`{=html} {{< fa brands r-project >}} 2. Open the project `</a>`{=html}
+`<a class="btn btn-info btn-lg" target="_blank" href="https://posit.cloud/spaces/676941/content/13109077">`{=html} {{< fa brands r-project >}} 2. Open the project `</a>`{=html}
 
 </p>
 
