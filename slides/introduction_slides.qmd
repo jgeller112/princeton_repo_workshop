@@ -18,33 +18,6 @@ format:
     fig-width: 12
     fig-height: 14
 ---
-
-# The Credibility Revolution
-
-## Open Science
-
-::::: columns
-::: {.column width="50%"}
-<br>
-
--   Being open and transparent across all stages of the research process
-
-    -   Key principles:
-
-        -   Open access
-
-        -   Open data
-
-        -   Open code
-:::
-
-::: {.column width="50%"}
-<br>
-
-![](/images/os.jpg){fig-align="center" width="734"}
-:::
-:::::
-
 ## Open Science in Practice: Reproducible Manuscripts
 
 ::::: columns
@@ -53,13 +26,13 @@ format:
 :::
 
 ::: {.column width="50%"}
--   Today we are going to focus on reproducible manuscript
+- Today we are going to focus on reproducible manuscript
 
-    {{< fa book >}}
+  {{< fa book >}}
 
-    {{< fa file-code >}}
+  {{< fa file-code >}}
 
-    {{< fa quote-left >}}
+  {{< fa quote-left >}}
 :::
 :::::
 
@@ -103,44 +76,44 @@ format:
 :::::: incremental
 ::::: columns
 ::: {.column width="50%"}
--   A .docx file is a compressed folder with lots of files
-    -   Your text is buried in with a lot of formatting information
+- A .docx file is a compressed folder with lots of files
+  - Your text is buried in with a lot of formatting information
 
 <!-- -->
 
--   Not reproducible
-    -   Code is divorced from writing
+- Not reproducible
+  - Code is divorced from writing
 :::
 
 ::: {.column width="50%"}
--   Difficult to maintain
-    -   Errors!
--   What do I share?
-    -   Lack of transparency
+- Difficult to maintain
+  - Errors!
+- What do I share?
+  - Lack of transparency
 :::
 :::::
 ::::::
 
 ## What Do We Want?
 
--   Combine narrative with code (literate programming)
+- Combine narrative with code (literate programming)
 
--   Automatically generate figures and tables
+- Automatically generate figures and tables
 
--   Automatically render results in text
+- Automatically render results in text
 
--   Format the content into a scientific paper (including citations!)
+- Format the content into a scientific paper (including citations!)
 
--   Something that looks pretty!
+- Something that looks pretty!
 
--   Rinse & repeat
+- Rinse & repeat
 
 ## Hello Quarto!
 
 ::::: columns
 ::: {.column width="50%"}
--   Open source publishing system designed for reproducibility
--   Unify and extends the R Markdown ecosystem
+- Open source publishing system designed for reproducibility
+- Unify and extends the R Markdown ecosystem
 :::
 
 ::: {.column width="50%"}
@@ -150,20 +123,20 @@ format:
 
 ## Big Universe
 
--   For EVERYONE
-    -   Develop and switch formats without hassle
+- For EVERYONE
+  - Develop and switch formats without hassle
 
 ![](img/horst_quarto_schematic.png){fig-align="center"}
 
 ## Hello Quarto!
 
--   Websites (<https://www.drjasongeller.com>)
+- Websites (<https://www.drjasongeller.com>)
 
--   Blogs (<https://www.youtube.com/watch?v=_b9DZy7aH8I>)
+- Blogs (<https://www.youtube.com/watch?v=_b9DZy7aH8I>)
 
--   Books (<https://jgeller112.github.io/dis_flu_modeling/>)
+- Books (<https://jgeller112.github.io/dis_flu_modeling/>)
 
--   Want to guess how I created these slides?
+- Want to guess how I created these slides?
 
 ## What is a Quarto?
 
@@ -175,9 +148,9 @@ Quarto handles literate programming by using a series of programs:
 
 ![How Quarto Works [(Source)](https://quarto.org/docs/get-started/hello/images/rstudio-qmd-how-it-works.png)](assets/quarto-images/rstudio-qmd-how-it-works.png)
 
--   **`knitr`** executes all code chunks and creates a new markdown (`.md`) file
--   **`pandoc`** takes the markdown file generated and converts it to the desired format.
--   **Render** inside of RStudio handles the interaction.
+- **`knitr`** executes all code chunks and creates a new markdown (`.md`) file
+- **`pandoc`** takes the markdown file generated and converts it to the desired format.
+- **Render** inside of RStudio handles the interaction.
 
 # Let's Write a Manuscript!
 
@@ -187,10 +160,10 @@ Quarto handles literate programming by using a series of programs:
 ## Always start a new project folder!
 :::
 
--   Creating a Quarto manuscript
+- Creating a Quarto manuscript
 
-    -   RStudio: New Project \> New Directory \> Quarto Manuscript
-    -   Positron: New File \> Quarto Project \> Manuscript Project
+  - RStudio: New Project \> New Directory \> Quarto Manuscript
+  - Positron: New File \> Quarto Project \> Manuscript Project
 
 ## Packages
 
@@ -210,7 +183,7 @@ tinytex::install_tinytex()
 # to uninstall TinyTeX, run tinytex::uninstall_tinytex()
 ```
 
--   You should also have Zotero installed along with Better BibTeX (nice, but not necessary)
+- You should also have Zotero installed along with Better BibTeX (nice, but not necessary)
 
 # Overview of a Quarto Document
 
@@ -260,7 +233,7 @@ Visual Mode represents a **What You See Is What You Get (WYSIWYG) editor**. This
 
 ## **Metadata & Header (YAML)**
 
--   The YAML header cotains basic metadata and rendering instructions
+- The YAML header cotains basic metadata and rendering instructions
 
 ``` yaml
 ---
@@ -275,13 +248,13 @@ format: html
 ---
 ```
 
--   Wait... what's the YAML acronym?
+- Wait... what's the YAML acronym?
 
-    -   Originally: "Yet Another Markup Language"
+  - Originally: "Yet Another Markup Language"
 
-    -   Later: "YAML Ain't Markup Language"
+  - Later: "YAML Ain't Markup Language"
 
--   Set global manuscript options with key-value pairs
+- Set global manuscript options with key-value pairs
 
 ## **Code**
 
